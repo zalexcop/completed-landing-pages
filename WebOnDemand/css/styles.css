@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    min-width: 900px;
+    width: 100vw;
+    height: 40px;
+    background-color: #161520;
+    border-bottom: 2px solid hsla(255, 6%, 25%, 0.516);
+}
+
+#Nav-item {
+    max-width: 900px;
+    margin: auto;
+    padding: 7px;
+}
+
+#Nav-item>ul {
+    width: 100%;
+}
+
+#Nav-item>ul>li {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    display: inline-block;
+    color: #d7d7d7;
+    font-size: 1em;
+    padding-right: 2.5em;
+}
+
+#Nav-item>ul :last-child {
+    padding-left: 300px;
+}
+
+Nav {
+    min-width: 900px;
+    width: 100vw;
+    height: 517px;
+    background-image: url(../img/StarsBG.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#Nav-Container {
+    max-width: 900px;
+    margin: auto;
+    height: auto;
+    padding-top: 10px;
+}
+
+.Logo-item {
+    width: 250px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: small;
+    max-height: 110px;
+    height: 110px;
+    min-height: 109px;
+}
+
+.Logo-item>div :first-child {
+    color: #c3c3c3;
+    text-align: center;
+    font-size: 3em;
+}
+
+.Logo-item>div {
+    padding-top: 25px;
+}
+
+.Logo-item>div :last-child {
+    color: #54262e;
+    text-align: center;
+    font-size: 1em;
+    margin-left: 8em;
+}
+
+.Ad-item {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: small;
+    background-color: hsla(0, 0%, 75%, 0.203);
+    width: 550px;
+    float: right;
+    text-align: center;
+    border: 2px solid hsla(276, 7%, 72%, 0.496);
+    height: 90px;
+    max-height: 90px;
+}
+
+.Ad-item>div {
+    color: rgba(185, 183, 183, 0.738);
+    height: 1em;
+    margin: 40px;
+}
+
+.Portfolio-item {
+    background-color: #0e0e16;
+    height: 350px;
+    width: 900px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 0 10px hsla(240, 22%, 8%, 0.435);
+    display: flex;
+}
+
+.Portfolio-item>div {
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Macbook-item {
+    background-image: url(../img/Macbook.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Macbook-item>p {
+    text-align: center;
+    color: #0090ff;
+    padding-top: 315px;
+    padding-left: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.Port-it1,
+.Port-it2,
+.Port-it3 {
+    margin-left: 15px;
+}
+
+.Port-it1 {
+    color: white;
+    font-size: 1.1em;
+    margin-top: 15px;
+}
+
+.Port-it2 {
+    color: #2d2d42;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+.Port-it3 {
+    color: #87878b;
+    font-size: 1em;
+    margin-top: 7px;
+}
+
+main {
+    background-color: #e7e7e7;
+    height: 570px;
+    min-width: 900px;
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.Main-container {
+    max-width: 900px;
+    height: 570px;
+    margin: auto;
+    margin-top: 0;
+}
+
+.Main-item-1 {
+    width: 900px;
+    height: 190px;
+    max-height: 190px;
+    box-sizing: border-box;
+    padding-top: 15px;
+}
+
+.Main-item-2 {
+    width: 900px;
+    height: 380px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.mi1-1 {
+    font-size: 2em;
+    margin-top: 0px;
+}
+
+.mi1-2 {
+    font-size: 0.84em;
+    padding-top: 5px;
+    color: #5b5b5b;
+}
+
+.mi2-1,
+.mi2-2 {
+    height: 380px;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.mi2-1-1 {
+    height: 130px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+.mi2-1-1>div {
+    float: right;
+}
+
+.mi2-1-2 {
+    height: 221px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+.MD {
+    float: right;
+    width: 76%;
+}
+
+.MI1 {
+    color: #696969;
+    font-size: 0.75em;
+}
+
+.MI2 {
+    margin-top: 5px;
+    color: #3e3e3e;
+    font-size: 0.7em;
+    font-weight: bolder;
+}
+
+.HM {
+    font-weight: bolder;
+    font-size: 1.1em;
+}
+
+.mi2-2-1 {
+    margin-top: 10px;
+    padding-bottom: 16px;
+}
+
+.ni {
+    width: 450px;
+    max-width: 450px;
+    height: 221px;
+    max-height: 221px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.ni>div {
+    width: 50%;
+    height: 100%;
+}
+
+.button {
+    width: 200px;
+    margin: auto;
+    margin-top: 10px;
+    height: 60px;
+    background-color: whitesmoke;
+    box-shadow: inset 0 0 0px 10px #e2e0e0;
+    box-sizing: border-box;
+}
+
+.button>p {
+    padding-top: 20px;
+    font-size: 0.8em;
+    color: #4d48f1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
